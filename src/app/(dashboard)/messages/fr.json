@@ -1,0 +1,396 @@
+{
+  "dashboard": {
+    "welcome": "Bienvenue sur le Tableau de Bord",
+    "cards": {
+      "account": {
+        "title": "Aperçu du Compte",
+        "description": "Gérer les détails du compte."
+      },
+      "product": {
+        "title": "Votre Produit",
+        "description": "Accéder à votre produit SaaS."
+      },
+      "mailing": {
+        "title": "Paramètres Email",
+        "description": "Gérer les emails des utilisateurs."
+      },
+      "settings": {
+        "title": "Paramètres",
+        "description": "Mettre à jour les préférences."
+      },
+      "blog": {
+        "title": "Gérer le Blog",
+        "description": "Créer ou modifier des articles."
+      }
+    },
+    "charts": {
+      "orders": "Commandes par Mois",
+      "roles": "Répartition des Rôles Utilisateur",
+      "revenue": "Tendance des Revenus"
+    },
+    "roles": {
+      "admin": "Administrateur",
+      "buyers": "Acheteurs",
+      "sellers": "Vendeurs"
+    },
+    "months": {
+      "jan": "Jan",
+      "feb": "Fév",
+      "mar": "Mar",
+      "apr": "Avr",
+      "may": "Mai"
+    }
+  },
+  "dashboardHeader": {
+    "backToSite": "Retour au Site",
+    "account": "Compte",
+    "users": "Utilisateurs",
+    "blog": "Blog",
+    "emails": "Emails",
+    "settings": "Paramètres",
+    "logout": "Déconnexion"
+  },
+  "dashboardSidebar": {
+    "overview": "Aperçu",
+    "users": "Utilisateurs",
+    "blog": "Articles de Blog",
+    "mailing": "Système de Messagerie",
+    "payments": "Paramètres de Paiement",
+    "products": "Produits et Abonnements",
+    "createAdmin": "Créer un Utilisateur Admin",
+    "settings": "Paramètres Globaux",
+    "theme": "Gérer le Thème"
+  },
+  "productManagement": {
+    "createProductTitle": "Créer un Nouveau Produit",
+    "editProductTitle": "Modifier le Produit",
+    "form": {
+      "name": "Nom du Produit",
+      "description": "Description",
+      "category": "Catégorie",
+      "price": "Prix",
+      "isSubscription": "S'agit-il d'un paiement récurrent (ex: abonnement) ?",
+      "availability": "Disponibilité",
+      "subscriptionTiers": "Niveaux d'Abonnement (séparés par des virgules)",
+      "licenseKey": "Clé de Licence (optionnel)",
+      "apiKey": "Clé API (optionnel)",
+      "isPopular": "Marquer comme Populaire",
+      "active": "Produit Actif (afficher sur la page de tarification)",
+      "checkoutUrl": "URL de Commande",
+      "features": "Fonctionnalités (liste séparée par des virgules)",
+      "saveButton": "Enregistrer le Produit",
+      "updateButton": "Mettre à Jour le Produit"
+    },
+    "messages": {
+      "createSuccess": "Produit créé avec succès !",
+      "createError": "Échec de la création du produit.",
+      "updateSuccess": "Produit mis à jour avec succès !",
+      "updateError": "Échec de la mise à jour du produit.",
+      "deleteSuccess": "Produit supprimé avec succès !",
+      "deleteError": "Échec de la suppression du produit.",
+      "fetchError": "Échec du chargement des produits."
+    },
+    "list": {
+      "title": "Liste des Produits",
+      "addProductButton": "Ajouter un Nouveau Produit",
+      "noProductsFound": "Aucun produit trouvé. Ajoutez-en un !",
+      "loadingProducts": "Chargement des produits...",
+      "tableHeaders": {
+        "id": "ID",
+        "name": "Nom",
+        "category": "Catégorie",
+        "price": "Prix",
+        "description": "Description",
+        "isSubscription": "Récurrent",
+        "availability": "Disponibilité",
+        "tiers": "Niveaux",
+        "licenseKey": "Clé de Licence",
+        "apiKey": "Clé API",
+        "isPopular": "Populaire",
+        "active": "Actif",
+        "checkoutUrl": "URL de Commande",
+        "features": "Fonctionnalités",
+        "actions": "Actions",
+        "details": "Détails"
+      },
+      "editButton": "Modifier",
+      "deleteButton": "Supprimer",
+      "deleteConfirmTitle": "Confirmer la Suppression",
+      "deleteConfirmDescription": "Êtes-vous sûr de vouloir supprimer ce produit ? Cette action ne peut pas être annulée.",
+      "deleteConfirmCancel": "Annuler",
+      "deleteConfirmContinue": "Supprimer"
+    }
+  },
+  "userManagement": {
+    "title": "Gérer les Utilisateurs",
+    "searchPlaceholder": "Rechercher des utilisateurs par nom ou email...",
+    "filterBy": "Filtrer par statut",
+    "filterOptions": {
+      "all": "Tous les Utilisateurs",
+      "active": "Actif",
+      "banned": "Banni"
+    },
+    "tableHeaders": {
+      "name": "Nom",
+      "email": "Email",
+      "status": "Statut",
+      "actions": "Actions"
+    },
+    "status": {
+      "active": "Actif",
+      "banned": "Banni"
+    },
+    "actions": {
+      "ban": "Bannir",
+      "unban": "Débannir",
+      "edit": "Modifier",
+      "delete": "Supprimer"
+    },
+    "messages": {
+      "fetchError": "Échec du chargement des utilisateurs.",
+      "statusUpdateSuccess": "Statut de l'utilisateur mis à jour avec succès !",
+      "statusUpdateError": "Échec de la mise à jour du statut de l'utilisateur.",
+      "deleteSuccess": "Utilisateur supprimé avec succès !",
+      "deleteError": "Échec de la suppression de l'utilisateur.",
+      "noUsersFound": "Aucun utilisateur trouvé.",
+      "loadingUsers": "Chargement des utilisateurs."
+    },
+    "deleteConfirmTitle": "Confirmer la Suppression de l'Utilisateur",
+    "deleteConfirmDescription": "Êtes-vous sûr de vouloir supprimer cet utilisateur ? Cette action ne peut pas être annulée.",
+    "deleteConfirmCancel": "Annuler",
+    "deleteConfirmContinue": "Supprimer"
+  },
+  "blogManagement": {
+    "title": "Gérer les Articles de Blog",
+    "addPostButton": "Ajouter un Nouvel Article",
+    "tableHeaders": {
+      "title": "Titre",
+      "actions": "Actions"
+    },
+    "actions": {
+      "edit": "Modifier",
+      "delete": "Supprimer"
+    },
+    "messages": {
+      "loadingPosts": "Chargement des articles de blog...",
+      "noPostsFound": "Aucun article de blog trouvé. Créez-en un !",
+      "fetchError": "Échec du chargement des articles de blog.",
+      "deleteSuccess": "Article de blog supprimé avec succès !",
+      "deleteError": "Échec de la suppression de l'article de blog."
+    },
+    "deleteConfirmTitle": "Confirmer la Suppression de l'Article",
+    "deleteConfirmDescription": "Êtes-vous sûr de vouloir supprimer cet article de blog ? Cette action ne peut pas être annulée.",
+    "deleteConfirmCancel": "Annuler",
+    "deleteConfirmContinue": "Supprimer"
+  },
+  "createBlog": {
+    "title": "Créer un Nouvel Article de Blog",
+    "form": {
+      "titlePlaceholder": "Titre",
+      "contentPlaceholder": "Contenu (HTML supporté)",
+      "slugPlaceholder": "Slug (ex: pourquoi-votre-entreprise-a-besoin-dun-site-web)",
+      "imagePlaceholder": "URL de l'Image",
+      "createButton": "Créer l'Article"
+    },
+    "messages": {
+      "createSuccess": "Article de blog créé avec succès !",
+      "createError": "Échec de la création de l'article de blog."
+    }
+  },
+  "mailManagement": {
+    "title": "Campagnes Email",
+    "addEmailButton": "Ajouter un Email",
+    "editSelectedButton": "Modifier la Sélection",
+    "deleteButton": "Supprimer",
+    "selectTemplateLabel": "Sélectionner un Modèle d'Email",
+    "selectTemplatePlaceholder": "-- Sélectionner --",
+    "targetAudienceLabel": "Public Cible",
+    "audienceOptions": {
+      "all": "Tous les Utilisateurs",
+      "role": "Rôle Spécifique",
+      "test": "Email de Test"
+    },
+    "rolePlaceholder": "Entrer le rôle (ex: admin, acheteur, vendeur)",
+    "testEmailLabel": "Adresse Email de Test",
+    "testEmailPlaceholder": "exemple@mail.com",
+    "sendEmailButton": "Envoyer l'Email",
+    "sendingEmailButton": "Envoi en cours...",
+    "messages": {
+      "fetchError": "Échec du chargement des modèles d'email.",
+      "selectTemplateError": "Veuillez sélectionner un modèle d'email.",
+      "roleRequiredError": "Veuillez fournir un rôle.",
+      "testEmailRequiredError": "Entrez une adresse email de test.",
+      "sendSuccess": "Emails envoyés avec succès !",
+      "sendError": "Échec de l'envoi des emails.",
+      "deleteConfirmTitle": "Confirmer la Suppression de l'Email",
+      "deleteConfirmDescription": "Êtes-vous sûr de vouloir supprimer ce modèle d'email ? Cette action ne peut pas être annulée.",
+      "deleteConfirmCancel": "Annuler",
+      "deleteConfirmContinue": "Supprimer",
+      "deleteSuccess": "Modèle d'email supprimé avec succès !",
+      "deleteError": "Échec de la suppression du modèle d'email.",
+      "noTemplatesFound": "Aucun modèle d'email trouvé. Ajoutez-en un !",
+      "loadingTemplates": "Chargement des modèles d'email."
+    }
+  },
+  "addMail": {
+    "title": "Ajouter un Nouveau Modèle d'Email",
+    "form": {
+      "subjectPlaceholder": "Objet de l'Email",
+      "fileUploadLabel": "Télécharger le Contenu HTML (Optionnel)",
+      "fileUploadHelp": "Téléchargez un fichier HTML pour remplir le contenu.",
+      "contentPlaceholder": "Contenu HTML de l'Email",
+      "sendTimingLabel": "Timing d'Envoi",
+      "scheduleImmediate": "Envoyer Immédiatement",
+      "scheduleScheduled": "Programmer pour Plus Tard",
+      "scheduledDateLabel": "Date et Heure Programmées",
+      "repeatEmailLabel": "Répéter cet email",
+      "createButton": "Créer le Modèle"
+    },
+    "messages": {
+      "createSuccess": "Modèle d'email créé avec succès !",
+      "createError": "Échec de la création du modèle d'email.",
+      "fileReadError": "Échec de la lecture du fichier. Veuillez réessayer."
+    }
+  },
+  "editMail": {
+    "title": "Modifier le Modèle d'Email",
+    "form": {
+      "subjectPlaceholder": "Objet de l'Email",
+      "fileUploadLabel": "Télécharger le Contenu HTML (Optionnel)",
+      "fileUploadHelp": "Téléchargez un fichier HTML pour remplir le contenu.",
+      "contentPlaceholder": "Contenu HTML de l'Email",
+      "sendTimingLabel": "Timing d'Envoi",
+      "scheduleImmediate": "Envoyer Immédiatement",
+      "scheduleScheduled": "Programmer pour Plus Tard",
+      "scheduledDateLabel": "Date et Heure Programmées",
+      "repeatEmailLabel": "Répéter cet email",
+      "updateButton": "Mettre à Jour le Modèle"
+    },
+    "messages": {
+      "fetchError": "Échec du chargement du modèle d'email pour modification.",
+      "updateSuccess": "Modèle d'email mis à jour avec succès !",
+      "updateError": "Échec de la mise à jour du modèle d'email.",
+      "fileReadError": "Échec de la lecture du fichier. Veuillez réessayer."
+    }
+  },
+  "paymentsManagement": {
+    "title": "Gérer les Paiements",
+    "tableHeaders": {
+      "transactionId": "ID de Transaction",
+      "userId": "ID Utilisateur",
+      "productId": "ID Produit",
+      "amount": "Montant",
+      "currency": "Devise",
+      "status": "Statut",
+      "paymentMethod": "Méthode de Paiement",
+      "createdAt": "Créé le",
+      "actions": "Actions"
+    },
+    "status": {
+      "Pending": "En Attente",
+      "Paid": "Payé",
+      "Canceled": "Annulé",
+      "undefined": "N/A",
+      "completed": "Terminé",
+      "pending": "En Attente"
+    },
+    "actions": {
+      "edit": "Modifier",
+      "delete": "Supprimer"
+    },
+    "messages": {
+      "loadingPayments": "Chargement des paiements...",
+      "noPaymentsFound": "Aucun paiement trouvé.",
+      "fetchError": "Échec du chargement des paiements.",
+      "deleteSuccess": "Paiement supprimé avec succès !",
+      "deleteError": "Échec de la suppression du paiement."
+    },
+    "deleteConfirmTitle": "Confirmer la Suppression du Paiement",
+    "deleteConfirmDescription": "Êtes-vous sûr de vouloir supprimer ce paiement ? Cette action ne peut pas être annulée.",
+    "deleteConfirmCancel": "Annuler",
+    "deleteConfirmContinue": "Supprimer"
+  },
+  "createAdmin": {
+    "title": "Créer un Utilisateur Administrateur",
+    "form": {
+      "namePlaceholder": "Nom de l'Administrateur",
+      "emailPlaceholder": "Email de l'Administrateur",
+      "passwordPlaceholder": "Mot de Passe de l'Administrateur",
+      "roleLabel": "Rôle Administrateur",
+      "roleOptions": {
+        "admin": "Administrateur",
+        "Admin": "Administrateur",
+        "owner": "Propriétaire"
+      },
+      "createButton": "Créer l'Administrateur"
+    },
+    "list": {
+      "title": "Administrateurs Existants",
+      "nameRole": "{name} ({role})",
+      "noAdminsFound": "Aucun utilisateur administrateur trouvé.",
+      "loadingAdmins": "Chargement des utilisateurs administrateurs...",
+      "tableHeaders": {
+        "name": "Nom",
+        "email": "Email",
+        "role": "Rôle",
+        "actions": "Actions"
+      }
+    },
+    "messages": {
+      "fetchError": "Échec du chargement des utilisateurs administrateurs.",
+      "createSuccess": "Utilisateur administrateur créé avec succès : {name} ({role})",
+      "createError": "Échec de la création de l'utilisateur administrateur.",
+      "deleteSuccess": "Utilisateur administrateur supprimé avec succès !",
+      "deleteError": "Échec de la suppression de l'utilisateur administrateur."
+    },
+    "deleteConfirmTitle": "Confirmer la Suppression de l'Administrateur",
+    "deleteConfirmDescription": "Êtes-vous sûr de vouloir supprimer cet utilisateur administrateur ? Cette action ne peut pas être annulée.",
+    "deleteConfirmCancel": "Annuler",
+    "deleteConfirmContinue": "Supprimer",
+    "actions": {
+      "delete": "Supprimer"
+    }
+  },
+  "settingsManagement": {
+    "title": "Paramètres Globaux",
+    "sections": {
+      "generalSettings": "Paramètres Généraux",
+      "backupRestore": "Sauvegarde et Restauration",
+      "backupRestoreDescription": "Gérer les sauvegardes des paramètres de votre application.",
+      "backupSettings": "Paramètres de Sauvegarde",
+      "backupSettingsDescription": "Créer une nouvelle sauvegarde des paramètres actuels de l'application.",
+      "restoreSettings": "Restaurer les Paramètres",
+      "restoreSettingsDescription": "Restaurer les paramètres à partir de la dernière sauvegarde disponible. Cette action ne peut pas être annulée."
+    },
+    "form": {
+      "appName": "Nom de l'Application",
+      "appNamePlaceholder": "Votre App SaaS",
+      "adminEmail": "Email de Contact Administrateur",
+      "adminEmailPlaceholder": "admin@exemple.com",
+      "allowRegistrations": "Autoriser les Nouvelles Inscriptions d'Utilisateurs",
+      "maintenanceMode": "Activer le Mode Maintenance",
+      "supportEmail": "Adresse Email de Support",
+      "supportEmailPlaceholder": "support@exemple.com",
+      "itemsPerPage": "Éléments par Page (Listes de Tableaux)"
+    },
+    "actions": {
+      "saveSettings": "Enregistrer les Paramètres",
+      "createBackup": "Créer une Sauvegarde",
+      "restoreBackup": "Restaurer la Dernière Sauvegarde"
+    },
+    "messages": {
+      "loadingSettings": "Chargement des paramètres...",
+      "fetchError": "Échec du chargement des paramètres de l'application.",
+      "saveSuccess": "Paramètres mis à jour avec succès !",
+      "saveError": "Échec de l'enregistrement des paramètres.",
+      "backupSuccess": "Sauvegarde des paramètres créée avec succès !",
+      "backupError": "Échec de la création de la sauvegarde des paramètres.",
+      "restoreSuccess": "Paramètres restaurés avec succès !",
+      "restoreError": "Échec de la restauration des paramètres.",
+      "restoreConfirmTitle": "Confirmer la Restauration des Paramètres",
+      "restoreConfirmDescription": "Êtes-vous absolument sûr de vouloir restaurer les paramètres à partir de la dernière sauvegarde ? Cela écrasera vos paramètres actuels et ne peut pas être annulé.",
+      "restoreConfirmCancel": "Annuler",
+      "restoreConfirmContinue": "Restaurer Maintenant"
+    }
+  }
+}

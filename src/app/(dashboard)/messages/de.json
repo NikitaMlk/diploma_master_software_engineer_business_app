@@ -1,0 +1,396 @@
+{
+  "dashboard": {
+    "welcome": "Willkommen im Dashboard",
+    "cards": {
+      "account": {
+        "title": "Kontoübersicht",
+        "description": "Kontodaten verwalten."
+      },
+      "product": {
+        "title": "Ihr Produkt",
+        "description": "Auf Ihr SaaS-Produkt zugreifen."
+      },
+      "mailing": {
+        "title": "E-Mail-Einstellungen",
+        "description": "Benutzer-E-Mails verwalten."
+      },
+      "settings": {
+        "title": "Einstellungen",
+        "description": "Präferenzen aktualisieren."
+      },
+      "blog": {
+        "title": "Blog verwalten",
+        "description": "Beiträge erstellen oder bearbeiten."
+      }
+    },
+    "charts": {
+      "orders": "Bestellungen pro Monat",
+      "roles": "Verteilung der Benutzerrollen",
+      "revenue": "Umsatztrend"
+    },
+    "roles": {
+      "admin": "Administrator",
+      "buyers": "Käufer",
+      "sellers": "Verkäufer"
+    },
+    "months": {
+      "jan": "Jan",
+      "feb": "Feb",
+      "mar": "Mär",
+      "apr": "Apr",
+      "may": "Mai"
+    }
+  },
+  "dashboardHeader": {
+    "backToSite": "Zurück zur Website",
+    "account": "Konto",
+    "users": "Benutzer",
+    "blog": "Blog",
+    "emails": "E-Mails",
+    "settings": "Einstellungen",
+    "logout": "Abmelden"
+  },
+  "dashboardSidebar": {
+    "overview": "Übersicht",
+    "users": "Benutzer",
+    "blog": "Blog-Beiträge",
+    "mailing": "E-Mail-System",
+    "payments": "Zahlungseinstellungen",
+    "products": "Produkte und Abonnements",
+    "createAdmin": "Admin-Benutzer erstellen",
+    "settings": "Globale Einstellungen",
+    "theme": "Theme verwalten"
+  },
+  "productManagement": {
+    "createProductTitle": "Neues Produkt erstellen",
+    "editProductTitle": "Produkt bearbeiten",
+    "form": {
+      "name": "Produktname",
+      "description": "Beschreibung",
+      "category": "Kategorie",
+      "price": "Preis",
+      "isSubscription": "Ist dies eine wiederkehrende Zahlung (z.B. Abonnement)?",
+      "availability": "Verfügbarkeit",
+      "subscriptionTiers": "Abonnement-Stufen (durch Kommas getrennt)",
+      "licenseKey": "Lizenzschlüssel (optional)",
+      "apiKey": "API-Schlüssel (optional)",
+      "isPopular": "Als beliebt markieren",
+      "active": "Produkt aktiv (auf Preisseite anzeigen)",
+      "checkoutUrl": "Checkout-URL",
+      "features": "Funktionen (durch Kommas getrennte Liste)",
+      "saveButton": "Produkt speichern",
+      "updateButton": "Produkt aktualisieren"
+    },
+    "messages": {
+      "createSuccess": "Produkt erfolgreich erstellt!",
+      "createError": "Fehler beim Erstellen des Produkts.",
+      "updateSuccess": "Produkt erfolgreich aktualisiert!",
+      "updateError": "Fehler beim Aktualisieren des Produkts.",
+      "deleteSuccess": "Produkt erfolgreich gelöscht!",
+      "deleteError": "Fehler beim Löschen des Produkts.",
+      "fetchError": "Fehler beim Laden der Produkte."
+    },
+    "list": {
+      "title": "Produktliste",
+      "addProductButton": "Neues Produkt hinzufügen",
+      "noProductsFound": "Keine Produkte gefunden. Fügen Sie eines hinzu!",
+      "loadingProducts": "Produkte werden geladen...",
+      "tableHeaders": {
+        "id": "ID",
+        "name": "Name",
+        "category": "Kategorie",
+        "price": "Preis",
+        "description": "Beschreibung",
+        "isSubscription": "Wiederkehrend",
+        "availability": "Verfügbarkeit",
+        "tiers": "Stufen",
+        "licenseKey": "Lizenzschlüssel",
+        "apiKey": "API-Schlüssel",
+        "isPopular": "Beliebt",
+        "active": "Aktiv",
+        "checkoutUrl": "Checkout-URL",
+        "features": "Funktionen",
+        "actions": "Aktionen",
+        "details": "Details"
+      },
+      "editButton": "Bearbeiten",
+      "deleteButton": "Löschen",
+      "deleteConfirmTitle": "Löschung bestätigen",
+      "deleteConfirmDescription": "Sind Sie sicher, dass Sie dieses Produkt löschen möchten? Diese Aktion kann nicht rückgängig gemacht werden.",
+      "deleteConfirmCancel": "Abbrechen",
+      "deleteConfirmContinue": "Löschen"
+    }
+  },
+  "userManagement": {
+    "title": "Benutzer verwalten",
+    "searchPlaceholder": "Benutzer nach Name oder E-Mail suchen...",
+    "filterBy": "Nach Status filtern",
+    "filterOptions": {
+      "all": "Alle Benutzer",
+      "active": "Aktiv",
+      "banned": "Gesperrt"
+    },
+    "tableHeaders": {
+      "name": "Name",
+      "email": "E-Mail",
+      "status": "Status",
+      "actions": "Aktionen"
+    },
+    "status": {
+      "active": "Aktiv",
+      "banned": "Gesperrt"
+    },
+    "actions": {
+      "ban": "Sperren",
+      "unban": "Entsperren",
+      "edit": "Bearbeiten",
+      "delete": "Löschen"
+    },
+    "messages": {
+      "fetchError": "Fehler beim Laden der Benutzer.",
+      "statusUpdateSuccess": "Benutzerstatus erfolgreich aktualisiert!",
+      "statusUpdateError": "Fehler beim Aktualisieren des Benutzerstatus.",
+      "deleteSuccess": "Benutzer erfolgreich gelöscht!",
+      "deleteError": "Fehler beim Löschen des Benutzers.",
+      "noUsersFound": "Keine Benutzer gefunden.",
+      "loadingUsers": "Benutzer werden geladen."
+    },
+    "deleteConfirmTitle": "Benutzerlöschung bestätigen",
+    "deleteConfirmDescription": "Sind Sie sicher, dass Sie diesen Benutzer löschen möchten? Diese Aktion kann nicht rückgängig gemacht werden.",
+    "deleteConfirmCancel": "Abbrechen",
+    "deleteConfirmContinue": "Löschen"
+  },
+  "blogManagement": {
+    "title": "Blog-Beiträge verwalten",
+    "addPostButton": "Neuen Beitrag hinzufügen",
+    "tableHeaders": {
+      "title": "Titel",
+      "actions": "Aktionen"
+    },
+    "actions": {
+      "edit": "Bearbeiten",
+      "delete": "Löschen"
+    },
+    "messages": {
+      "loadingPosts": "Blog-Beiträge werden geladen...",
+      "noPostsFound": "Keine Blog-Beiträge gefunden. Erstellen Sie einen!",
+      "fetchError": "Fehler beim Laden der Blog-Beiträge.",
+      "deleteSuccess": "Blog-Beitrag erfolgreich gelöscht!",
+      "deleteError": "Fehler beim Löschen des Blog-Beitrags."
+    },
+    "deleteConfirmTitle": "Beitragslöschung bestätigen",
+    "deleteConfirmDescription": "Sind Sie sicher, dass Sie diesen Blog-Beitrag löschen möchten? Diese Aktion kann nicht rückgängig gemacht werden.",
+    "deleteConfirmCancel": "Abbrechen",
+    "deleteConfirmContinue": "Löschen"
+  },
+  "createBlog": {
+    "title": "Neuen Blog-Beitrag erstellen",
+    "form": {
+      "titlePlaceholder": "Titel",
+      "contentPlaceholder": "Inhalt (HTML unterstützt)",
+      "slugPlaceholder": "Slug (z.B. warum-ihr-unternehmen-eine-website-braucht)",
+      "imagePlaceholder": "Bild-URL",
+      "createButton": "Beitrag erstellen"
+    },
+    "messages": {
+      "createSuccess": "Blog-Beitrag erfolgreich erstellt!",
+      "createError": "Fehler beim Erstellen des Blog-Beitrags."
+    }
+  },
+  "mailManagement": {
+    "title": "E-Mail-Kampagnen",
+    "addEmailButton": "E-Mail hinzufügen",
+    "editSelectedButton": "Ausgewählte bearbeiten",
+    "deleteButton": "Löschen",
+    "selectTemplateLabel": "E-Mail-Vorlage auswählen",
+    "selectTemplatePlaceholder": "-- Auswählen --",
+    "targetAudienceLabel": "Zielgruppe",
+    "audienceOptions": {
+      "all": "Alle Benutzer",
+      "role": "Spezifische Rolle",
+      "test": "Test-E-Mail"
+    },
+    "rolePlaceholder": "Rolle eingeben (z.B. admin, käufer, verkäufer)",
+    "testEmailLabel": "Test-E-Mail-Adresse",
+    "testEmailPlaceholder": "beispiel@mail.com",
+    "sendEmailButton": "E-Mail senden",
+    "sendingEmailButton": "Wird gesendet...",
+    "messages": {
+      "fetchError": "Fehler beim Laden der E-Mail-Vorlagen.",
+      "selectTemplateError": "Bitte wählen Sie eine E-Mail-Vorlage aus.",
+      "roleRequiredError": "Bitte geben Sie eine Rolle an.",
+      "testEmailRequiredError": "Geben Sie eine Test-E-Mail-Adresse ein.",
+      "sendSuccess": "E-Mails erfolgreich gesendet!",
+      "sendError": "Fehler beim Senden der E-Mails.",
+      "deleteConfirmTitle": "E-Mail-Löschung bestätigen",
+      "deleteConfirmDescription": "Sind Sie sicher, dass Sie diese E-Mail-Vorlage löschen möchten? Diese Aktion kann nicht rückgängig gemacht werden.",
+      "deleteConfirmCancel": "Abbrechen",
+      "deleteConfirmContinue": "Löschen",
+      "deleteSuccess": "E-Mail-Vorlage erfolgreich gelöscht!",
+      "deleteError": "Fehler beim Löschen der E-Mail-Vorlage.",
+      "noTemplatesFound": "Keine E-Mail-Vorlagen gefunden. Fügen Sie eine hinzu!",
+      "loadingTemplates": "E-Mail-Vorlagen werden geladen."
+    }
+  },
+  "addMail": {
+    "title": "Neue E-Mail-Vorlage hinzufügen",
+    "form": {
+      "subjectPlaceholder": "E-Mail-Betreff",
+      "fileUploadLabel": "HTML-Inhalt hochladen (Optional)",
+      "fileUploadHelp": "Laden Sie eine HTML-Datei hoch, um den Inhalt zu füllen.",
+      "contentPlaceholder": "E-Mail-HTML-Inhalt",
+      "sendTimingLabel": "Sendezeitpunkt",
+      "scheduleImmediate": "Sofort senden",
+      "scheduleScheduled": "Für später planen",
+      "scheduledDateLabel": "Geplantes Datum & Uhrzeit",
+      "repeatEmailLabel": "Diese E-Mail wiederholen",
+      "createButton": "Vorlage erstellen"
+    },
+    "messages": {
+      "createSuccess": "E-Mail-Vorlage erfolgreich erstellt!",
+      "createError": "Fehler beim Erstellen der E-Mail-Vorlage.",
+      "fileReadError": "Fehler beim Lesen der Datei. Bitte versuchen Sie es erneut."
+    }
+  },
+  "editMail": {
+    "title": "E-Mail-Vorlage bearbeiten",
+    "form": {
+      "subjectPlaceholder": "E-Mail-Betreff",
+      "fileUploadLabel": "HTML-Inhalt hochladen (Optional)",
+      "fileUploadHelp": "Laden Sie eine HTML-Datei hoch, um den Inhalt zu füllen.",
+      "contentPlaceholder": "E-Mail-HTML-Inhalt",
+      "sendTimingLabel": "Sendezeitpunkt",
+      "scheduleImmediate": "Sofort senden",
+      "scheduleScheduled": "Für später planen",
+      "scheduledDateLabel": "Geplantes Datum & Uhrzeit",
+      "repeatEmailLabel": "Diese E-Mail wiederholen",
+      "updateButton": "Vorlage aktualisieren"
+    },
+    "messages": {
+      "fetchError": "Fehler beim Laden der E-Mail-Vorlage zur Bearbeitung.",
+      "updateSuccess": "E-Mail-Vorlage erfolgreich aktualisiert!",
+      "updateError": "Fehler beim Aktualisieren der E-Mail-Vorlage.",
+      "fileReadError": "Fehler beim Lesen der Datei. Bitte versuchen Sie es erneut."
+    }
+  },
+  "paymentsManagement": {
+    "title": "Zahlungen verwalten",
+    "tableHeaders": {
+      "transactionId": "Transaktions-ID",
+      "userId": "Benutzer-ID",
+      "productId": "Produkt-ID",
+      "amount": "Betrag",
+      "currency": "Währung",
+      "status": "Status",
+      "paymentMethod": "Zahlungsmethode",
+      "createdAt": "Erstellt am",
+      "actions": "Aktionen"
+    },
+    "status": {
+      "Pending": "Ausstehend",
+      "Paid": "Bezahlt",
+      "Canceled": "Storniert",
+      "undefined": "N/A",
+      "completed": "Abgeschlossen",
+      "pending": "Ausstehend"
+    },
+    "actions": {
+      "edit": "Bearbeiten",
+      "delete": "Löschen"
+    },
+    "messages": {
+      "loadingPayments": "Zahlungen werden geladen...",
+      "noPaymentsFound": "Keine Zahlungen gefunden.",
+      "fetchError": "Fehler beim Laden der Zahlungen.",
+      "deleteSuccess": "Zahlung erfolgreich gelöscht!",
+      "deleteError": "Fehler beim Löschen der Zahlung."
+    },
+    "deleteConfirmTitle": "Zahlungslöschung bestätigen",
+    "deleteConfirmDescription": "Sind Sie sicher, dass Sie diese Zahlung löschen möchten? Diese Aktion kann nicht rückgängig gemacht werden.",
+    "deleteConfirmCancel": "Abbrechen",
+    "deleteConfirmContinue": "Löschen"
+  },
+  "createAdmin": {
+    "title": "Administrator-Benutzer erstellen",
+    "form": {
+      "namePlaceholder": "Administrator-Name",
+      "emailPlaceholder": "Administrator-E-Mail",
+      "passwordPlaceholder": "Administrator-Passwort",
+      "roleLabel": "Administrator-Rolle",
+      "roleOptions": {
+        "admin": "Administrator",
+        "Admin": "Administrator",
+        "owner": "Eigentümer"
+      },
+      "createButton": "Administrator erstellen"
+    },
+    "list": {
+      "title": "Vorhandene Administratoren",
+      "nameRole": "{name} ({role})",
+      "noAdminsFound": "Keine Administrator-Benutzer gefunden.",
+      "loadingAdmins": "Administrator-Benutzer werden geladen...",
+      "tableHeaders": {
+        "name": "Name",
+        "email": "E-Mail",
+        "role": "Rolle",
+        "actions": "Aktionen"
+      }
+    },
+    "messages": {
+      "fetchError": "Fehler beim Laden der Administrator-Benutzer.",
+      "createSuccess": "Administrator-Benutzer erfolgreich erstellt: {name} ({role})",
+      "createError": "Fehler beim Erstellen des Administrator-Benutzers.",
+      "deleteSuccess": "Administrator-Benutzer erfolgreich gelöscht!",
+      "deleteError": "Fehler beim Löschen des Administrator-Benutzers."
+    },
+    "deleteConfirmTitle": "Administrator-Löschung bestätigen",
+    "deleteConfirmDescription": "Sind Sie sicher, dass Sie diesen Administrator-Benutzer entfernen möchten? Diese Aktion kann nicht rückgängig gemacht werden.",
+    "deleteConfirmCancel": "Abbrechen",
+    "deleteConfirmContinue": "Entfernen",
+    "actions": {
+      "delete": "Löschen"
+    }
+  },
+  "settingsManagement": {
+    "title": "Globale Einstellungen",
+    "sections": {
+      "generalSettings": "Allgemeine Einstellungen",
+      "backupRestore": "Sicherung und Wiederherstellung",
+      "backupRestoreDescription": "Verwalten Sie die Einstellungssicherungen Ihrer Anwendung.",
+      "backupSettings": "Sicherungseinstellungen",
+      "backupSettingsDescription": "Erstellen Sie eine neue Sicherung der aktuellen Anwendungseinstellungen.",
+      "restoreSettings": "Einstellungen wiederherstellen",
+      "restoreSettingsDescription": "Stellen Sie die Einstellungen aus der letzten verfügbaren Sicherung wieder her. Diese Aktion kann nicht rückgängig gemacht werden."
+    },
+    "form": {
+      "appName": "Anwendungsname",
+      "appNamePlaceholder": "Ihre SaaS-App",
+      "adminEmail": "Administrator-Kontakt-E-Mail",
+      "adminEmailPlaceholder": "admin@beispiel.com",
+      "allowRegistrations": "Neue Benutzerregistrierungen zulassen",
+      "maintenanceMode": "Wartungsmodus aktivieren",
+      "supportEmail": "Support-E-Mail-Adresse",
+      "supportEmailPlaceholder": "support@beispiel.com",
+      "itemsPerPage": "Elemente pro Seite (Tabellenlisten)"
+    },
+    "actions": {
+      "saveSettings": "Einstellungen speichern",
+      "createBackup": "Sicherung erstellen",
+      "restoreBackup": "Letzte Sicherung wiederherstellen"
+    },
+    "messages": {
+      "loadingSettings": "Einstellungen werden geladen...",
+      "fetchError": "Fehler beim Laden der Anwendungseinstellungen.",
+      "saveSuccess": "Einstellungen erfolgreich aktualisiert!",
+      "saveError": "Fehler beim Speichern der Einstellungen.",
+      "backupSuccess": "Einstellungssicherung erfolgreich erstellt!",
+      "backupError": "Fehler beim Erstellen der Einstellungssicherung.",
+      "restoreSuccess": "Einstellungen erfolgreich wiederhergestellt!",
+      "restoreError": "Fehler beim Wiederherstellen der Einstellungen.",
+      "restoreConfirmTitle": "Einstellungswiederherstellung bestätigen",
+      "restoreConfirmDescription": "Sind Sie absolut sicher, dass Sie die Einstellungen aus der letzten Sicherung wiederherstellen möchten? Dies wird Ihre aktuellen Einstellungen überschreiben und kann nicht rückgängig gemacht werden.",
+      "restoreConfirmCancel": "Abbrechen",
+      "restoreConfirmContinue": "Jetzt wiederherstellen"
+    }
+  }
+}

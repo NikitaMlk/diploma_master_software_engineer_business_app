@@ -1,0 +1,396 @@
+{
+  "dashboard": {
+    "welcome": "Ласкаво просимо до панелі керування",
+    "cards": {
+      "account": {
+        "title": "Огляд акаунта",
+        "description": "Керування деталями акаунта."
+      },
+      "product": {
+        "title": "Ваш продукт",
+        "description": "Доступ до вашого SaaS продукту."
+      },
+      "mailing": {
+        "title": "Налаштування пошти",
+        "description": "Керування електронною поштою користувачів."
+      },
+      "settings": {
+        "title": "Налаштування",
+        "description": "Оновити параметри."
+      },
+      "blog": {
+        "title": "Керування блогом",
+        "description": "Створювати або редагувати записи."
+      }
+    },
+    "charts": {
+      "orders": "Замовлення за місяць",
+      "roles": "Розподіл ролей користувачів",
+      "revenue": "Тенденція доходів"
+    },
+    "roles": {
+      "admin": "Адміністратор",
+      "buyers": "Покупці",
+      "sellers": "Продавці"
+    },
+    "months": {
+      "jan": "Січ",
+      "feb": "Лют",
+      "mar": "Бер",
+      "apr": "Кві",
+      "may": "Тра"
+    }
+  },
+  "dashboardHeader": {
+    "backToSite": "Повернутися на сайт",
+    "account": "Акаунт",
+    "users": "Користувачі",
+    "blog": "Блог",
+    "emails": "Електронна пошта",
+    "settings": "Налаштування",
+    "logout": "Вийти"
+  },
+  "dashboardSidebar": {
+    "overview": "Огляд",
+    "users": "Користувачі",
+    "blog": "Записи блогу",
+    "mailing": "Система розсилки",
+    "payments": "Налаштування платежів",
+    "products": "Продукти та підписки",
+    "createAdmin": "Створити адміністратора",
+    "settings": "Глобальні налаштування",
+    "theme": "Керування темою"
+  },
+  "productManagement": {
+    "createProductTitle": "Створити новий продукт",
+    "editProductTitle": "Редагувати продукт",
+    "form": {
+      "name": "Назва продукту",
+      "description": "Опис",
+      "category": "Категорія",
+      "price": "Ціна",
+      "isSubscription": "Це регулярний платіж (наприклад, підписка)?",
+      "availability": "Доступність",
+      "subscriptionTiers": "Рівні підписки (через кому)",
+      "licenseKey": "Ліцензійний ключ (необов'язково)",
+      "apiKey": "API ключ (необов'язково)",
+      "isPopular": "Позначити як популярний",
+      "active": "Продукт активний (показувати на сторінці цін)",
+      "checkoutUrl": "URL оформлення замовлення",
+      "features": "Функції (список через кому)",
+      "saveButton": "Зберегти продукт",
+      "updateButton": "Оновити продукт"
+    },
+    "messages": {
+      "createSuccess": "Продукт успішно створено!",
+      "createError": "Помилка створення продукту.",
+      "updateSuccess": "Продукт успішно оновлено!",
+      "updateError": "Помилка оновлення продукту.",
+      "deleteSuccess": "Продукт успішно видалено!",
+      "deleteError": "Помилка видалення продукту.",
+      "fetchError": "Помилка завантаження продуктів."
+    },
+    "list": {
+      "title": "Список продуктів",
+      "addProductButton": "Додати новий продукт",
+      "noProductsFound": "Продукти не знайдено. Додайте один!",
+      "loadingProducts": "Завантаження продуктів...",
+      "tableHeaders": {
+        "id": "ID",
+        "name": "Назва",
+        "category": "Категорія",
+        "price": "Ціна",
+        "description": "Опис",
+        "isSubscription": "Регулярний",
+        "availability": "Доступність",
+        "tiers": "Рівні",
+        "licenseKey": "Ліцензійний ключ",
+        "apiKey": "API ключ",
+        "isPopular": "Популярний",
+        "active": "Активний",
+        "checkoutUrl": "URL оформлення",
+        "features": "Функції",
+        "actions": "Дії",
+        "details": "Деталі"
+      },
+      "editButton": "Редагувати",
+      "deleteButton": "Видалити",
+      "deleteConfirmTitle": "Підтвердити видалення",
+      "deleteConfirmDescription": "Ви впевнені, що хочете видалити цей продукт? Цю дію неможливо скасувати.",
+      "deleteConfirmCancel": "Скасувати",
+      "deleteConfirmContinue": "Видалити"
+    }
+  },
+  "userManagement": {
+    "title": "Керування користувачами",
+    "searchPlaceholder": "Шукати користувачів за ім'ям або електронною поштою...",
+    "filterBy": "Фільтрувати за статусом",
+    "filterOptions": {
+      "all": "Всі користувачі",
+      "active": "Активні",
+      "banned": "Заблоковані"
+    },
+    "tableHeaders": {
+      "name": "Ім'я",
+      "email": "Електронна пошта",
+      "status": "Статус",
+      "actions": "Дії"
+    },
+    "status": {
+      "active": "Активний",
+      "banned": "Заблокований"
+    },
+    "actions": {
+      "ban": "Заблокувати",
+      "unban": "Розблокувати",
+      "edit": "Редагувати",
+      "delete": "Видалити"
+    },
+    "messages": {
+      "fetchError": "Помилка завантаження користувачів.",
+      "statusUpdateSuccess": "Статус користувача успішно оновлено!",
+      "statusUpdateError": "Помилка оновлення статусу користувача.",
+      "deleteSuccess": "Користувача успішно видалено!",
+      "deleteError": "Помилка видалення користувача.",
+      "noUsersFound": "Користувачі не знайдені.",
+      "loadingUsers": "Завантаження користувачів."
+    },
+    "deleteConfirmTitle": "Підтвердити видалення користувача",
+    "deleteConfirmDescription": "Ви впевнені, що хочете видалити цього користувача? Цю дію неможливо скасувати.",
+    "deleteConfirmCancel": "Скасувати",
+    "deleteConfirmContinue": "Видалити"
+  },
+  "blogManagement": {
+    "title": "Керування записами блогу",
+    "addPostButton": "Додати новий запис",
+    "tableHeaders": {
+      "title": "Заголовок",
+      "actions": "Дії"
+    },
+    "actions": {
+      "edit": "Редагувати",
+      "delete": "Видалити"
+    },
+    "messages": {
+      "loadingPosts": "Завантаження записів блогу...",
+      "noPostsFound": "Записи блогу не знайдено. Створіть один!",
+      "fetchError": "Помилка завантаження записів блогу.",
+      "deleteSuccess": "Запис блогу успішно видалено!",
+      "deleteError": "Помилка видалення запису блогу."
+    },
+    "deleteConfirmTitle": "Підтвердити видалення запису",
+    "deleteConfirmDescription": "Ви впевнені, що хочете видалити цей запис блогу? Цю дію неможливо скасувати.",
+    "deleteConfirmCancel": "Скасувати",
+    "deleteConfirmContinue": "Видалити"
+  },
+  "createBlog": {
+    "title": "Створити новий запис блогу",
+    "form": {
+      "titlePlaceholder": "Заголовок",
+      "contentPlaceholder": "Зміст (підтримується HTML)",
+      "slugPlaceholder": "Слаг (наприклад, chomu-vashomu-biznesu-potriben-veb-sait)",
+      "imagePlaceholder": "URL зображення",
+      "createButton": "Створити запис"
+    },
+    "messages": {
+      "createSuccess": "Запис блогу успішно створено!",
+      "createError": "Помилка створення запису блогу."
+    }
+  },
+  "mailManagement": {
+    "title": "Кампанії електронної пошти",
+    "addEmailButton": "Додати електронний лист",
+    "editSelectedButton": "Редагувати вибране",
+    "deleteButton": "Видалити",
+    "selectTemplateLabel": "Вибрати шаблон електронної пошти",
+    "selectTemplatePlaceholder": "-- Вибрати --",
+    "targetAudienceLabel": "Цільова аудиторія",
+    "audienceOptions": {
+      "all": "Всі користувачі",
+      "role": "Конкретна роль",
+      "test": "Тестова електронна пошта"
+    },
+    "rolePlaceholder": "Введіть роль (наприклад, admin, покупець, продавець)",
+    "testEmailLabel": "Тестова адреса електронної пошти",
+    "testEmailPlaceholder": "приклад@пошта.com",
+    "sendEmailButton": "Надіслати електронну пошту",
+    "sendingEmailButton": "Надсилання...",
+    "messages": {
+      "fetchError": "Помилка завантаження шаблонів електронної пошти.",
+      "selectTemplateError": "Будь ласка, виберіть шаблон електронної пошти.",
+      "roleRequiredError": "Будь ласка, вкажіть роль.",
+      "testEmailRequiredError": "Введіть тестову адресу електронної пошти.",
+      "sendSuccess": "Електронну пошту успішно надіслано!",
+      "sendError": "Помилка надсилання електронної пошти.",
+      "deleteConfirmTitle": "Підтвердити видалення електронної пошти",
+      "deleteConfirmDescription": "Ви впевнені, що хочете видалити цей шаблон електронної пошти? Цю дію неможливо скасувати.",
+      "deleteConfirmCancel": "Скасувати",
+      "deleteConfirmContinue": "Видалити",
+      "deleteSuccess": "Шаблон електронної пошти успішно видалено!",
+      "deleteError": "Помилка видалення шаблону електронної пошти.",
+      "noTemplatesFound": "Шаблони електронної пошти не знайдено. Додайте один!",
+      "loadingTemplates": "Завантаження шаблонів електронної пошти."
+    }
+  },
+  "addMail": {
+    "title": "Додати новий шаблон електронної пошти",
+    "form": {
+      "subjectPlaceholder": "Тема електронної пошти",
+      "fileUploadLabel": "Завантажити HTML вміст (необов'язково)",
+      "fileUploadHelp": "Завантажте HTML файл для заповнення вмісту.",
+      "contentPlaceholder": "HTML вміст електронної пошти",
+      "sendTimingLabel": "Час надсилання",
+      "scheduleImmediate": "Надіслати негайно",
+      "scheduleScheduled": "Запланувати на пізніше",
+      "scheduledDateLabel": "Запланована дата та час",
+      "repeatEmailLabel": "Повторювати цей електронний лист",
+      "createButton": "Створити шаблон"
+    },
+    "messages": {
+      "createSuccess": "Шаблон електронної пошти успішно створено!",
+      "createError": "Помилка створення шаблону електронної пошти.",
+      "fileReadError": "Помилка читання файлу. Спробуйте ще раз."
+    }
+  },
+  "editMail": {
+    "title": "Редагувати шаблон електронної пошти",
+    "form": {
+      "subjectPlaceholder": "Тема електронної пошти",
+      "fileUploadLabel": "Завантажити HTML вміст (необов'язково)",
+      "fileUploadHelp": "Завантажте HTML файл для заповнення вмісту.",
+      "contentPlaceholder": "HTML вміст електронної пошти",
+      "sendTimingLabel": "Час надсилання",
+      "scheduleImmediate": "Надіслати негайно",
+      "scheduleScheduled": "Запланувати на пізніше",
+      "scheduledDateLabel": "Запланована дата та час",
+      "repeatEmailLabel": "Повторювати цей електронний лист",
+      "updateButton": "Оновити шаблон"
+    },
+    "messages": {
+      "fetchError": "Помилка завантаження шаблону електронної пошти для редагування.",
+      "updateSuccess": "Шаблон електронної пошти успішно оновлено!",
+      "updateError": "Помилка оновлення шаблону електронної пошти.",
+      "fileReadError": "Помилка читання файлу. Спробуйте ще раз."
+    }
+  },
+  "paymentsManagement": {
+    "title": "Керування платежами",
+    "tableHeaders": {
+      "transactionId": "ID транзакції",
+      "userId": "ID користувача",
+      "productId": "ID продукту",
+      "amount": "Сума",
+      "currency": "Валюта",
+      "status": "Статус",
+      "paymentMethod": "Спосіб оплати",
+      "createdAt": "Створено",
+      "actions": "Дії"
+    },
+    "status": {
+      "Pending": "Очікується",
+      "Paid": "Оплачено",
+      "Canceled": "Скасовано",
+      "undefined": "Н/Д",
+      "completed": "Завершено",
+      "pending": "Очікується"
+    },
+    "actions": {
+      "edit": "Редагувати",
+      "delete": "Видалити"
+    },
+    "messages": {
+      "loadingPayments": "Завантаження платежів...",
+      "noPaymentsFound": "Платежі не знайдено.",
+      "fetchError": "Помилка завантаження платежів.",
+      "deleteSuccess": "Платіж успішно видалено!",
+      "deleteError": "Помилка видалення платежу."
+    },
+    "deleteConfirmTitle": "Підтвердити видалення платежу",
+    "deleteConfirmDescription": "Ви впевнені, що хочете видалити цей платіж? Цю дію неможливо скасувати.",
+    "deleteConfirmCancel": "Скасувати",
+    "deleteConfirmContinue": "Видалити"
+  },
+  "createAdmin": {
+    "title": "Створити користувача-адміністратора",
+    "form": {
+      "namePlaceholder": "Ім'я адміністратора",
+      "emailPlaceholder": "Електронна пошта адміністратора",
+      "passwordPlaceholder": "Пароль адміністратора",
+      "roleLabel": "Роль адміністратора",
+      "roleOptions": {
+        "admin": "Адміністратор",
+        "Admin": "Адміністратор",
+        "owner": "Власник"
+      },
+      "createButton": "Створити адміністратора"
+    },
+    "list": {
+      "title": "Існуючі адміністратори",
+      "nameRole": "{name} ({role})",
+      "noAdminsFound": "Користувачі-адміністратори не знайдені.",
+      "loadingAdmins": "Завантаження користувачів-адміністраторів...",
+      "tableHeaders": {
+        "name": "Ім'я",
+        "email": "Електронна пошта",
+        "role": "Роль",
+        "actions": "Дії"
+      }
+    },
+    "messages": {
+      "fetchError": "Помилка завантаження користувачів-адміністраторів.",
+      "createSuccess": "Користувача-адміністратора успішно створено: {name} ({role})",
+      "createError": "Помилка створення користувача-адміністратора.",
+      "deleteSuccess": "Користувача-адміністратора успішно видалено!",
+      "deleteError": "Помилка видалення користувача-адміністратора."
+    },
+    "deleteConfirmTitle": "Підтвердити видалення адміністратора",
+    "deleteConfirmDescription": "Ви впевнені, що хочете видалити цього користувача-адміністратора? Цю дію неможливо скасувати.",
+    "deleteConfirmCancel": "Скасувати",
+    "deleteConfirmContinue": "Видалити",
+    "actions": {
+      "delete": "Видалити"
+    }
+  },
+  "settingsManagement": {
+    "title": "Глобальні налаштування",
+    "sections": {
+      "generalSettings": "Загальні налаштування",
+      "backupRestore": "Резервне копіювання та відновлення",
+      "backupRestoreDescription": "Керування резервними копіями налаштувань вашої програми.",
+      "backupSettings": "Налаштування резервного копіювання",
+      "backupSettingsDescription": "Створити нову резервну копію поточних налаштувань програми.",
+      "restoreSettings": "Відновити налаштування",
+      "restoreSettingsDescription": "Відновити налаштування з останньої доступної резервної копії. Цю дію неможливо скасувати."
+    },
+    "form": {
+      "appName": "Назва програми",
+      "appNamePlaceholder": "Ваша SaaS програма",
+      "adminEmail": "Контактна електронна пошта адміністратора",
+      "adminEmailPlaceholder": "admin@приклад.com",
+      "allowRegistrations": "Дозволити реєстрацію нових користувачів",
+      "maintenanceMode": "Увімкнути режим технічного обслуговування",
+      "supportEmail": "Адреса електронної пошти підтримки",
+      "supportEmailPlaceholder": "підтримка@приклад.com",
+      "itemsPerPage": "Елементів на сторінці (списки таблиць)"
+    },
+    "actions": {
+      "saveSettings": "Зберегти налаштування",
+      "createBackup": "Створити резервну копію",
+      "restoreBackup": "Відновити останню резервну копію"
+    },
+    "messages": {
+      "loadingSettings": "Завантаження налаштувань...",
+      "fetchError": "Помилка завантаження налаштувань програми.",
+      "saveSuccess": "Налаштування успішно оновлено!",
+      "saveError": "Помилка збереження налаштувань.",
+      "backupSuccess": "Резервну копію налаштувань успішно створено!",
+      "backupError": "Помилка створення резервної копії налаштувань.",
+      "restoreSuccess": "Налаштування успішно відновлено!",
+      "restoreError": "Помилка відновлення налаштувань.",
+      "restoreConfirmTitle": "Підтвердити відновлення налаштувань",
+      "restoreConfirmDescription": "Ви абсолютно впевнені, що хочете відновити налаштування з останньої резервної копії? Це перезапише ваші поточні налаштування і не може бути скасовано.",
+      "restoreConfirmCancel": "Скасувати",
+      "restoreConfirmContinue": "Відновити зараз"
+    }
+  }
+}

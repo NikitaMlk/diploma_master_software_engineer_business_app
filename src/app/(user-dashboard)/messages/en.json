@@ -1,0 +1,63 @@
+{
+  "userDashboard": {
+    "welcome": "Welcome, {userName}",
+    "id": "User ID:",
+    "editProfile": "Edit Profile",
+    "overview": {
+      "title": "Overview",
+      "subscriptionStatus": "Subscription Status",
+      "storageUsed": "Storage Used",
+      "lastLogin": "Last Login"
+    },
+    "profileInfo": {
+      "title": "Profile Information",
+      "name": "Name",
+      "email": "Email",
+      "status": "Status",
+      "language": "Language",
+      "notSet": "Not set"
+    },
+    "subscriptionDetails": {
+      "title": "Subscription Details",
+      "plan": "Current Plan",
+      "status": "Status",
+      "renewalDate": "Renewal Date",
+      "planFeatures": "Plan Features",
+      "noSubscription": "No active subscription found.",
+      "active": "Active",
+      "inactive": "Inactive",
+      "cancelled": "Cancelled"
+    },
+    "usageStats": {
+      "title": "Usage Statistics",
+      "storageUsed": "Storage Used",
+      "bandwidthUsed": "Bandwidth Used",
+      "apiCalls": "API Calls Today",
+      "notAvailable": "Not available"
+    },
+    "securitySettings": {
+      "title": "Security Settings",
+      "twoFactor": "Two-Factor Authentication",
+      "lastLoginIp": "Last Login IP",
+      "lastLoginDate": "Last Login Date",
+      "enabled": "Enabled",
+      "disabled": "Disabled"
+    },
+    "loadingUser": "Loading user data...",
+    "errorFetchingUser": "Failed to load user data. Please try again.",
+    "userNotFound": "User not found."
+  },
+  "userSidebar": {
+    "dashboard": "Dashboard",
+    "overview": "Overview",
+    "settings": "Settings",
+    "billing": "Billing",
+    "notifications": "Notifications",
+    "support": "Support",
+    "logout": "Logout",
+    "copyright": "© {year} Your Company"
+  },
+  "userHeader": {
+    "toggleMenu": "Toggle Menu"
+  }
+}

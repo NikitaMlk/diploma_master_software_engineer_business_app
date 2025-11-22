@@ -1,0 +1,398 @@
+{
+  "dashboard": {
+    "welcome": "Welcome to Dashboard",
+    "cards": {
+      "account": {
+        "title": "Account Overview",
+        "description": "Manage account details."
+      },
+      "product": {
+        "title": "Your Product",
+        "description": "Access your SaaS product."
+      },
+      "mailing": {
+        "title": "Email Settings",
+        "description": "Manage user emails."
+      },
+      "settings": {
+        "title": "Settings",
+        "description": "Update preferences."
+      },
+      "blog": {
+        "title": "Manage Blog",
+        "description": "Create or edit posts."
+      }
+    },
+    "charts": {
+      "orders": "Orders Per Month",
+      "roles": "User Roles Distribution",
+      "revenue": "Revenue Trend"
+    },
+    "roles": {
+      "admin": "Admin",
+      "buyers": "Buyers",
+      "sellers": "Sellers"
+    },
+    "months": {
+      "jan": "Jan",
+      "feb": "Feb",
+      "mar": "Mar",
+      "apr": "Apr",
+      "may": "May"
+    }
+  },
+  "dashboardHeader": {
+    "backToSite": "Back to Site",
+    "account": "Account",
+    "users": "Users",
+    "blog": "Blog",
+    "emails": "Emails",
+    "settings": "Settings",
+    "logout":"Logout"
+  },
+  "dashboardSidebar": {
+    "overview": "Overview",
+    "users": "Users",
+    "blog": "Blog Posts",
+    "mailing": "Mailing System",
+    "payments": "Payment Settings",
+    "products": "Products and Subscriptions",
+    "createAdmin": "Create Admin User",
+    "settings": "Global Settings",
+    "theme": "Manage Theme"
+  },
+  "productManagement": {
+    "createProductTitle": "Create New Product",
+    "editProductTitle": "Edit Product",
+    "form": {
+      "name": "Product Name",
+      "description": "Description",
+      "category": "Category",
+      "price": "Price",
+      "isSubscription": "Is this a recurring payment (e.g., subscription)?",
+      "availability": "Availability",
+      "subscriptionTiers": "Subscription Tiers (comma-separated)",
+      "licenseKey": "License Key (optional)",
+      "apiKey": "API Key (optional)",
+      "isPopular": "Mark as Popular",
+      "active": "Product Active (show on pricing page)",
+      "checkoutUrl": "Checkout URL",
+      "features": "Features (comma-separated list)",
+      "saveButton": "Save Product",
+      "updateButton": "Update Product"
+    },
+    "messages": {
+      "createSuccess": "Product created successfully!",
+      "createError": "Failed to create product.",
+      "updateSuccess": "Product updated successfully!",
+      "updateError": "Failed to update product.",
+      "deleteSuccess": "Product deleted successfully!",
+      "deleteError": "Failed to delete product.",
+      "fetchError": "Failed to load products."
+    },
+    "list": {
+      "title": "Product List",
+      "addProductButton": "Add New Product",
+      "noProductsFound": "No products found. Add one!",
+      "loadingProducts": "Loading products...",
+      "tableHeaders": {
+        "id": "ID",
+        "name": "Name",
+        "category": "Category",
+        "price": "Price",
+        "description": "Description",
+        "isSubscription": "Recurring",
+        "availability": "Availability",
+        "tiers": "Tiers",
+        "licenseKey": "License Key",
+        "apiKey": "API Key",
+        "isPopular": "Popular",
+        "active": "Active",
+        "checkoutUrl": "Checkout URL",
+        "features": "Features",
+        "actions": "Actions",
+        "details": "Details"
+      },
+      "editButton": "Edit",
+      "deleteButton": "Delete",
+      "deleteConfirmTitle": "Confirm Deletion",
+      "deleteConfirmDescription": "Are you sure you want to delete this product? This action cannot be undone.",
+      "deleteConfirmCancel": "Cancel",
+      "deleteConfirmContinue": "Delete"
+    }
+  },
+  "userManagement": {
+    "title": "Manage Users",
+    "searchPlaceholder": "Search users by name or email...",
+    "filterBy": "Filter by status",
+    "filterOptions": {
+      "all": "All Users",
+      "active": "Active",
+      "banned": "Banned"
+    },
+    "tableHeaders": {
+      "name": "Name",
+      "email": "Email",
+      "status": "Status",
+      "actions": "Actions"
+    },
+    "status": {
+      "active": "Active",
+      "banned": "Banned"
+    },
+    "actions": {
+      "ban": "Ban",
+      "unban": "Unban",
+      "edit": "Edit",
+      "delete": "Delete"
+    },
+    "messages": {
+      "fetchError": "Failed to load users.",
+      "statusUpdateSuccess": "User status updated successfully!",
+      "statusUpdateError": "Failed to update user status.",
+      "deleteSuccess": "User deleted successfully!",
+      "deleteError": "Failed to delete user.",
+      "noUsersFound": "No users found.",
+      "loadingUsers": "Loading users."
+    },
+    "deleteConfirmTitle": "Confirm User Deletion",
+    "deleteConfirmDescription": "Are you sure you want to delete this user? This action cannot be undone.",
+    "deleteConfirmCancel": "Cancel",
+    "deleteConfirmContinue": "Delete"
+  },
+  "blogManagement": {
+    "title": "Manage Blog Posts",
+    "addPostButton": "Add New Post",
+    "tableHeaders": {
+      "title": "Title",
+      "actions": "Actions"
+    },
+    "actions": {
+      "edit": "Edit",
+      "delete": "Delete"
+    },
+    "messages": {
+      "loadingPosts": "Loading blog posts...",
+      "noPostsFound": "No blog posts found. Create one!",
+      "fetchError": "Failed to load blog posts.",
+      "deleteSuccess": "Blog post deleted successfully!",
+      "deleteError": "Failed to delete blog post."
+    },
+    "deleteConfirmTitle": "Confirm Post Deletion",
+    "deleteConfirmDescription": "Are you sure you want to delete this blog post? This action cannot be undone.",
+    "deleteConfirmCancel": "Cancel",
+    "deleteConfirmContinue": "Delete"
+  },
+  "createBlog": {
+    "title": "Create New Blog Post",
+    "form": {
+      "titlePlaceholder": "Title",
+      "contentPlaceholder": "Content (HTML supported)",
+      "slugPlaceholder": "Slug (e.g. why-your-business-needs-a-website)",
+      "imagePlaceholder": "Image URL",
+      "createButton": "Create Post"
+    },
+    "messages": {
+      "createSuccess": "Blog post created successfully!",
+      "createError": "Failed to create blog post."
+    }
+  },
+  "mailManagement": {
+    "title": "Email Campaigns",
+    "addEmailButton": "Add Email",
+    "editSelectedButton": "Edit Selected",
+    "deleteButton": "Delete",
+    "selectTemplateLabel": "Select Email Template",
+    "selectTemplatePlaceholder": "-- Select --",
+    "targetAudienceLabel": "Target Audience",
+    "audienceOptions": {
+      "all": "All Users",
+      "role": "Specific Role",
+      "test": "Test Email"
+    },
+    "rolePlaceholder": "Enter role (e.g., admin, buyer, seller)",
+    "testEmailLabel": "Test Email Address",
+    "testEmailPlaceholder": "example@mail.com",
+    "sendEmailButton": "Send Email",
+    "sendingEmailButton": "Sending...",
+    "messages": {
+      "fetchError": "Failed to load email templates.",
+      "selectTemplateError": "Please select an email template.",
+      "roleRequiredError": "Please provide a role.",
+      "testEmailRequiredError": "Enter a test email address.",
+      "sendSuccess": "Emails sent successfully!",
+      "sendError": "Failed to send emails.",
+      "deleteConfirmTitle": "Confirm Email Deletion",
+      "deleteConfirmDescription": "Are you sure you want to delete this email template? This action cannot be undone.",
+      "deleteConfirmCancel": "Cancel",
+      "deleteConfirmContinue": "Delete",
+      "deleteSuccess": "Email template deleted successfully!",
+      "deleteError": "Failed to delete email template.",
+      "noTemplatesFound": "No email templates found. Add one!",
+      "loadingTemplates": "Loading email templates."
+    }
+  },
+  "addMail": {
+    "title": "Add New Email Template",
+    "form": {
+      "subjectPlaceholder": "Email Subject",
+      "fileUploadLabel": "Upload HTML Content (Optional)",
+      "fileUploadHelp": "Upload an HTML file to populate the content.",
+      "contentPlaceholder": "Email HTML Content",
+      "sendTimingLabel": "Send Timing",
+      "scheduleImmediate": "Send Immediately",
+      "scheduleScheduled": "Schedule for Later",
+      "scheduledDateLabel": "Scheduled Date & Time",
+      "repeatEmailLabel": "Repeat this email",
+      "createButton": "Create Template"
+    },
+    "messages": {
+      "createSuccess": "Email template created successfully!",
+      "createError": "Failed to create email template.",
+      "fileReadError": "Failed to read file. Please try again."
+    }
+  },
+  "editMail": {
+    "title": "Edit Email Template",
+    "form": {
+      "subjectPlaceholder": "Email Subject",
+      "fileUploadLabel": "Upload HTML Content (Optional)",
+      "fileUploadHelp": "Upload an HTML file to populate the content.",
+      "contentPlaceholder": "Email HTML Content",
+      "sendTimingLabel": "Send Timing",
+      "scheduleImmediate": "Send Immediately",
+      "scheduleScheduled": "Schedule for Later",
+      "scheduledDateLabel": "Scheduled Date & Time",
+      "repeatEmailLabel": "Repeat this email",
+      "updateButton": "Update Template"
+    },
+    "messages": {
+      "fetchError": "Failed to load email template for editing.",
+      "updateSuccess": "Email template updated successfully!",
+      "updateError": "Failed to update email template.",
+      "fileReadError": "Failed to read file. Please try again."
+    }
+  },
+  "paymentsManagement": {
+    "title": "Manage Payments",
+    "tableHeaders": {
+      "transactionId": "Transaction ID",
+      "userId": "User ID",
+      "productId": "Product ID",
+      "amount": "Amount",
+      "currency": "Currency",
+      "status": "Status",
+      "paymentMethod": "Payment Method",
+      "createdAt": "Created At",
+      "actions": "Actions"
+    },
+    "status": {
+      "Pending": "Pending",
+      "Paid": "Paid",
+      "Canceled": "Canceled",
+      "undefined": "N/A",
+      "completed": "Completed",
+      "pending": "Pending"
+    },
+    "actions": {
+      "edit": "Edit",
+      "delete": "Delete"
+    },
+    "messages": {
+      "loadingPayments": "Loading payments...",
+      "noPaymentsFound": "No payments found.",
+      "fetchError": "Failed to load payments.",
+      "deleteSuccess": "Payment deleted successfully!",
+      "deleteError": "Failed to delete payment."
+    },
+    "deleteConfirmTitle": "Confirm Payment Deletion",
+    "deleteConfirmDescription": "Are you sure you want to delete this payment? This action cannot be undone.",
+    "deleteConfirmCancel": "Cancel",
+    "deleteConfirmContinue": "Delete"
+    }
+  ,
+  "createAdmin": {
+    "title": "Create Admin User",
+    "form": {
+      "namePlaceholder": "Admin Name",
+      "emailPlaceholder": "Admin Email",
+      "passwordPlaceholder": "Admin Password",
+      "roleLabel": "Admin Role",
+      "roleOptions": {
+        "admin": "Admin",
+        "Admin": "Admin",
+        "owner": "Owner"
+      },
+      "createButton": "Create Admin"
+    },
+    "list": {
+      "title": "Existing Admins",
+      "nameRole": "{name} ({role})",
+      "noAdminsFound": "No admin users found.",
+      "loadingAdmins": "Loading admin users...",
+      "tableHeaders": {
+        "name": "Name",
+        "email": "Email",
+        "role": "Role",
+        "actions": "Actions"
+      }
+    },
+    "messages": {
+      "fetchError": "Failed to load admin users.",
+      "createSuccess": "Admin user created successfully: {name} ({role})",
+      "createError": "Failed to create admin user.",
+      "deleteSuccess": "Admin user deleted successfully!",
+      "deleteError": "Failed to delete admin user."
+    },
+    "deleteConfirmTitle": "Confirm Admin Deletion",
+    "deleteConfirmDescription": "Are you sure you want to remove this admin user? This action cannot be undone.",
+    "deleteConfirmCancel": "Cancel",
+    "deleteConfirmContinue": "Remove"
+    ,
+    "actions": {
+        "delete": "Delete"
+    }
+  },
+    "settingsManagement": {
+    "title": "Global Settings",
+    "sections": {
+      "generalSettings": "General Settings",
+      "backupRestore": "Backup & Restore",
+      "backupRestoreDescription": "Manage your application's settings backups.",
+      "backupSettings": "Backup Settings",
+      "backupSettingsDescription": "Create a new backup of the current application settings.",
+      "restoreSettings": "Restore Settings",
+      "restoreSettingsDescription": "Restore settings from the latest available backup. This action cannot be undone."
+    },
+    "form": {
+      "appName": "Application Name",
+      "appNamePlaceholder": "Your SaaS App",
+      "adminEmail": "Admin Contact Email",
+      "adminEmailPlaceholder": "admin@example.com",
+      "allowRegistrations": "Allow New User Registrations",
+      "maintenanceMode": "Enable Maintenance Mode",
+      "supportEmail": "Support Email Address",
+      "supportEmailPlaceholder": "support@example.com",
+      "itemsPerPage": "Items Per Page (Table Lists)"
+    },
+    "actions": {
+      "saveSettings": "Save Settings",
+      "createBackup": "Create Backup",
+      "restoreBackup": "Restore Last Backup"
+    },
+    "messages": {
+      "loadingSettings": "Loading settings...",
+      "fetchError": "Failed to load application settings.",
+      "saveSuccess": "Settings updated successfully!",
+      "saveError": "Failed to save settings.",
+      "backupSuccess": "Settings backup created successfully!",
+      "backupError": "Failed to create settings backup.",
+      "restoreSuccess": "Settings restored successfully!",
+      "restoreError": "Failed to restore settings.",
+      "restoreConfirmTitle": "Confirm Settings Restore",
+      "restoreConfirmDescription": "Are you absolutely sure you want to restore settings from the last backup? This will overwrite your current settings and cannot be undone.",
+      "restoreConfirmCancel": "Cancel",
+      "restoreConfirmContinue": "Restore Now"
+    }
+  }
+}
