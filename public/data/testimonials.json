@@ -1,0 +1,23 @@
+[
+  {
+    "name": "John Doe",
+    "role": "CEO, TechCorp",
+    "message": "This SaaS product transformed our business! Highly recommend it.",
+    "avatar": "/images/john.jpg",
+    "rate": 5
+  },
+  {
+    "name": "Sarah Smith",
+    "role": "Startup Founder",
+    "message": "A must-have tool for startups. Clean UI, fast setup, and amazing support.",
+    "avatar": "/images/sarah.jpg",
+    "rate": 4
+  },
+  {
+    "name": "Mark Lee",
+    "role": "Product Manager",
+    "message": "The best investment we've made. It's scalable and user-friendly.",
+    "avatar": "/images/mark.jpg",
+    "rate": 5
+  }
+]
